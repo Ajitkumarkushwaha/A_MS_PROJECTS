@@ -1,0 +1,12 @@
+server:
+  port: 9292
+spring:
+  application:
+    name: CURRENCY-CONVERSION-API
+---
+#Logging Configuration
+logging:
+  file:
+    name: Currency_Conversion_Api.log
+  level:
+    root: info 

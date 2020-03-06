@@ -1,0 +1,51 @@
+2020-03-06 18:44:15.227  INFO 16984 --- [restartedMain] com.kushwaha.Application                 : No active profile set, falling back to default profiles: default
+2020-03-06 18:44:16.431  INFO 16984 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=373140e8-ef7e-3e2d-b4e6-ce63754fed38
+2020-03-06 18:44:17.101  INFO 16984 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9292 (http)
+2020-03-06 18:44:17.113  INFO 16984 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-06 18:44:17.114  INFO 16984 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-06 18:44:17.392  INFO 16984 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-06 18:44:17.393  INFO 16984 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2141 ms
+2020-03-06 18:44:17.602  WARN 16984 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2020-03-06 18:44:17.754  WARN 16984 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-03-06 18:44:17.754  INFO 16984 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-03-06 18:44:17.759  WARN 16984 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-03-06 18:44:17.759  INFO 16984 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-03-06 18:44:17.971  INFO 16984 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-06 18:44:19.393  WARN 16984 --- [restartedMain] ockingLoadBalancerClientRibbonWarnLogger : You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-03-06 18:44:19.541  INFO 16984 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2020-03-06 18:44:19.588  INFO 16984 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2020-03-06 18:44:19.786  INFO 16984 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2020-03-06 18:44:19.787  INFO 16984 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2020-03-06 18:44:20.031  INFO 16984 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2020-03-06 18:44:20.031  INFO 16984 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2020-03-06 18:44:20.224  INFO 16984 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-03-06 18:44:20.478  INFO 16984 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2020-03-06 18:44:20.479  INFO 16984 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2020-03-06 18:44:20.479  INFO 16984 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2020-03-06 18:44:20.479  INFO 16984 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2020-03-06 18:44:20.479  INFO 16984 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2020-03-06 18:44:20.479  INFO 16984 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2020-03-06 18:44:20.479  INFO 16984 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2020-03-06 18:44:20.670  INFO 16984 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2020-03-06 18:44:20.675  INFO 16984 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2020-03-06 18:44:20.679  INFO 16984 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-03-06 18:44:20.685  INFO 16984 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1583500460684 with initial instances count: 1
+2020-03-06 18:44:20.687  INFO 16984 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application CURRENCY-CONVERSION-API with eureka with status UP
+2020-03-06 18:44:20.688  INFO 16984 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1583500460688, current=UP, previous=STARTING]
+2020-03-06 18:44:20.692  INFO 16984 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CURRENCY-CONVERSION-API/DESKTOP-JCL1GVP:CURRENCY-CONVERSION-API:9292: registering service...
+2020-03-06 18:44:20.748  INFO 16984 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CURRENCY-CONVERSION-API/DESKTOP-JCL1GVP:CURRENCY-CONVERSION-API:9292 - registration status: 204
+2020-03-06 18:44:21.013  INFO 16984 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9292 (http) with context path ''
+2020-03-06 18:44:21.015  INFO 16984 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 9292
+2020-03-06 18:44:21.395  INFO 16984 --- [restartedMain] com.kushwaha.Application                 : Started Application in 7.892 seconds (JVM running for 9.238)
+2020-03-06 18:44:42.391  INFO 16984 --- [http-nio-9292-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-06 18:44:42.391  INFO 16984 --- [http-nio-9292-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-03-06 18:44:42.404  INFO 16984 --- [http-nio-9292-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 13 ms
+2020-03-06 18:44:42.713  INFO 16984 --- [http-nio-9292-exec-1] c.netflix.config.ChainedDynamicProperty  : Flipping property: CURRENCY-EXCHANGE-API.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2020-03-06 18:44:42.756  INFO 16984 --- [http-nio-9292-exec-1] c.n.u.concurrent.ShutdownEnabledTimer    : Shutdown hook installed for: NFLoadBalancer-PingTimer-CURRENCY-EXCHANGE-API
+2020-03-06 18:44:42.759  INFO 16984 --- [http-nio-9292-exec-1] c.netflix.loadbalancer.BaseLoadBalancer  : Client: CURRENCY-EXCHANGE-API instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=CURRENCY-EXCHANGE-API,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2020-03-06 18:44:42.769  INFO 16984 --- [http-nio-9292-exec-1] c.n.l.DynamicServerListLoadBalancer      : Using serverListUpdater PollingServerListUpdater
+2020-03-06 18:44:42.803  INFO 16984 --- [http-nio-9292-exec-1] c.netflix.config.ChainedDynamicProperty  : Flipping property: CURRENCY-EXCHANGE-API.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2020-03-06 18:44:42.806  INFO 16984 --- [http-nio-9292-exec-1] c.n.l.DynamicServerListLoadBalancer      : DynamicServerListLoadBalancer for client CURRENCY-EXCHANGE-API initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=CURRENCY-EXCHANGE-API,current list of Servers=[DESKTOP-JCL1GVP:9191],Load balancer stats=Zone stats: {defaultzone=[Zone:defaultzone;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:DESKTOP-JCL1GVP:9191;	Zone:defaultZone;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 05:30:00 IST 1970;	First connection made: Thu Jan 01 05:30:00 IST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@64d34912
+2020-03-06 18:44:43.775  INFO 16984 --- [PollingServerListUpdater-0] c.netflix.config.ChainedDynamicProperty  : Flipping property: CURRENCY-EXCHANGE-API.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
